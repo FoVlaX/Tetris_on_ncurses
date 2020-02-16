@@ -3,7 +3,7 @@
 #include <algorithm>
 #include <stdio.h>
 #include <locale.h>
-
+#include <time.h>
 
 const int x_size = 20;
 const int y_size = 34;
@@ -353,6 +353,7 @@ int main(){
 			Draw({i,y_size-1},'#');
 		}
 	}
+	srand(time(NULL));
 	int tf = rand()%7;
 	bool GameOver = false;
 	int clr = 3+rand()%6;
