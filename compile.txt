@@ -1,1 +1,0 @@
-gcc tetris.cpp -lncurses -o tetris.o -fpermissive -lstdc++
